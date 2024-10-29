@@ -1,6 +1,6 @@
 """
+Source: https://codewithmosh.com/ -> Python Projects for Beginners
 ## Dice Rolling Game
-
 A program that simulates rolling a pair of dice. Each time the program runs, it
 randomly generate two numbers between 1 and 6 (inclusive), representing the
 result of each die. The program should then display the results and ask if the
