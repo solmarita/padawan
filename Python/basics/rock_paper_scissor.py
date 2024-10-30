@@ -84,12 +84,13 @@ def get_user_input(
 
 def main():
     """
-    Wraps the game logic to ensure it runs only when the script is executed directly.
+    Wraps the game logic to ensure it runs only when the script is executed 
+    directly.
 
-    This function contains the main flow of the Rock, Paper, Scissors game, preventing 
-    accidental execution when the file is imported as a module.
+    This function contains the main flow of the Rock, Paper, Scissors game, 
+    preventing accidental execution when the file is imported as a module.
     """
-    #choices: list[str] = ['r', 'p', 's']
+
     choices: dict[str, str] = {
         'r': '🪨',
         'p': '📃',
@@ -120,7 +121,6 @@ def main():
 
 
     while True:
-        # Making Choices
         player_1_choice: str = get_user_input(
             f'{player_1_name} > Rock, Paper, or Scissors? (r/p/s): ',
             str,
